@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">kodepos</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <string name="alamat">Alamat</string>
+
+    <string name="kode">Pesanan</string>
+
+    <string name="jumlah">Jumlah</string>
+
+    <string name="order">Order</string>
+
+    <!--
+      Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+      user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <string name="order_summary_alamat">Alamat: <xliff:g example="Jalan" id="alamat">%s</xliff:g></string>
+
+    <string name="order_summary_kode">Pesanan: <xliff:g example="A33 Hitam" id="kode">%s</xliff:g></string>
+
+    <string name="order_summary_jumlah">Jumlah Pesanan: <xliff:g example="10" id="jumlah">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">Thank You!</string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_email_subject">Just Java order for <xliff:g example="Amy" id="name">%s</xliff:g></string>
+</resources>

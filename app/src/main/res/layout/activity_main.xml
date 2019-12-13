@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mainlogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/baju"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainlogo"
+        android:textSize="20sp"
+        android:textColor="#996e17"
+        android:text="SHOP FASHION" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/company"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="INFO"
+        android:onClick="info"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/katalog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="CATALOGUE"
+        android:onClick="katalog"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/katalog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="ORDER"
+        android:onClick="order"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/api"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="KODE POS"
+        android:onClick="api"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
